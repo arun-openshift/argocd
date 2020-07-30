@@ -9,10 +9,13 @@ project2:
   # For Kubernetes set route.enabled=false
   route:
     enabled: true
+    includeHost: false
   
   # For OpenShift set ingress.enabled=false
   # For Kubernetes set ingress.enabled=true
   ingress:
     enabled: false
     tlsSecretName: sandbox-ocp43-one-176292-be5b1ee812fa4041cc73b6bbf969fc88-0000
+    host: project2
+    namespaceInHost: true
 
