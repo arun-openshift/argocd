@@ -2,7 +2,7 @@ global:
   ingressSubdomain: sandbox-ocp43-one-176292-be5b1ee812fa4041cc73b6bbf969fc88-0000.eu-gb.containers.appdomain.cloud
   tlsSecretName: sandbox-ocp43-one-176292-be5b1ee812fa4041cc73b6bbf969fc88-0000
 
-project2-test:
+project2:
   replicaCount: 3
   
   # For OpenShift set route.enabled=true
@@ -14,5 +14,5 @@ project2-test:
   # For Kubernetes set ingress.enabled=true
   ingress:
     enabled: false
-    tlsSecretName: <dev-cluster-name>
+    tlsSecretName: sandbox-ocp43-one-176292-be5b1ee812fa4041cc73b6bbf969fc88-0000
 
