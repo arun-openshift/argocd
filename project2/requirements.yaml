@@ -1,5 +1,5 @@
 dependencies:
   - name: project2
-    version: 0.0.30
+    version: 0.0.31
     repository: >-
       https://artifactory-tools.sandbox-ocp43-one-176292-be5b1ee812fa4041cc73b6bbf969fc88-0000.eu-gb.containers.appdomain.cloud/artifactory/generic-local/sandbox-registry-cognizant/
