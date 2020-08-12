@@ -2,7 +2,7 @@ global:
   ingressSubdomain: sandbox-ocp43-one-176292-be5b1ee812fa4041cc73b6bbf969fc88-0000.eu-gb.containers.appdomain.cloud
   tlsSecretName: sandbox-ocp43-one-176292-be5b1ee812fa4041cc73b6bbf969fc88-0000
 
-pillbox:
+admin:
   replicaCount: 1
   
   # For OpenShift set route.enabled=true
@@ -16,6 +16,6 @@ pillbox:
   ingress:
     enabled: false
     tlsSecretName: sandbox-ocp43-one-176292-be5b1ee812fa4041cc73b6bbf969fc88-0000
-    host: pillbox
+    host: admin
     namespaceInHost: true
 

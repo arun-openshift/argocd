@@ -3,7 +3,7 @@ global:
   tlsSecretName: sandbox-ocp43-one-176292-be5b1ee812fa4041cc73b6bbf969fc88-0000
 
 pharmacist:
-  replicaCount: 3
+  replicaCount: 1
   
   # For OpenShift set route.enabled=true
   # For Kubernetes set route.enabled=false
