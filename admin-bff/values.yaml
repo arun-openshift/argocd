@@ -1,0 +1,21 @@
+global:
+  ingressSubdomain: sandbox-ocp43-one-176292-be5b1ee812fa4041cc73b6bbf969fc88-0000.eu-gb.containers.appdomain.cloud
+  tlsSecretName: sandbox-ocp43-one-176292-be5b1ee812fa4041cc73b6bbf969fc88-0000
+
+admin-bff:
+  replicaCount: 1
+  
+  # For OpenShift set route.enabled=true
+  # For Kubernetes set route.enabled=false
+  route:
+    enabled: true
+    includeHost: false
+  
+  # For OpenShift set ingress.enabled=false
+  # For Kubernetes set ingress.enabled=true
+  ingress:
+    enabled: false
+    tlsSecretName: sandbox-ocp43-one-176292-be5b1ee812fa4041cc73b6bbf969fc88-0000
+    host: admin-bff
+    namespaceInHost: true
+

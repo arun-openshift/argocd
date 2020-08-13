@@ -1,0 +1,5 @@
+dependencies:
+  - name: pharmacist-bff
+    version: 0.0.1
+    repository: >-
+      https://artifactory-tools.sandbox-ocp43-one-176292-be5b1ee812fa4041cc73b6bbf969fc88-0000.eu-gb.containers.appdomain.cloud/artifactory/generic-local/sandbox-registry-cognizant/
